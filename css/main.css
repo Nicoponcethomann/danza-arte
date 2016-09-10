@@ -1,0 +1,150 @@
+*{
+	font-family: "Latolight";
+}
+
+.studio{
+	background: url(../img/dance_1.jpg);
+	background-size: cover;
+	height: 350px;
+	padding: 30px;
+	margin-top: 130px;
+}
+
+.studio-left{
+	padding: 40px 0px;
+	color: #B9C7DA;
+}
+
+.title{
+	color: #BBB9B5;
+	font-size: 50px;
+}
+
+.content-studio{
+	margin: 20px 0px;
+	margin-right: 130px;
+	font-size: 14px;
+}
+
+.inscription{
+	background-color: #060D15;
+	width: 140px;
+	height: 40px;
+	border-radius: 10px;
+	padding-top: 15px;
+}
+
+.inscription a{
+	color: #B9C7DA;
+	font-size: 14px;
+}
+
+.background-content{
+	background: url(../img/textura_2.jpg);
+}
+
+.content-offer{
+	padding: 80px;
+}
+
+.offer p{
+	font-size: 20px;
+}
+
+.icon{
+	width: 10%;
+}
+
+.offer-buttom{
+	background-color: #141E41;
+	width: 250px;
+	height: 35px;
+	display: block;
+	margin:auto;
+	border-radius: 5px;
+	padding-top: 20px;
+}
+
+.offer-buttom p{
+	color: #B9C7DA;
+	font-size: 13px;
+}
+
+.background-instructors{
+	background: url(../img/instructor_4.jpg) left no-repeat, url(../img/profesor_9.jpg) right no-repeat;
+	width: 100%;
+	background-size: 50%;
+	height: 300px;
+	border: 1px solid #141E41;
+}
+
+.instructors-cont{
+	padding-top: 240px;
+	z-index: 2;
+}
+
+.instructors-buttom{
+	width: 500px;
+	height: 40px;
+	background-color: #141E41;
+	display: block;
+	margin:auto;
+	padding-top: 20px;
+}
+
+.instructors-buttom a{
+	color: #B9C7DA;
+}
+
+.dance-quote{
+	background: url(../img/textura_2.jpg);
+	height: 300px;
+}
+
+.dance-cont{
+	padding: 100px 0px;
+}
+
+.dance-text{
+	font-size: 30px;
+}
+
+.location{
+	background-color: #141E41;
+}
+
+.location-cont{
+	color: #B9C7DA;
+}
+
+.visit{
+	padding: 80px 0px;
+}
+
+.visit-text p{
+	margin-right: 80px;
+	font-size: 14px;
+}
+
+.visit-text-bottom{
+	margin-top: 50px;
+}
+
+.visit-text-two{
+	color: white;
+	margin: 10px 0px;
+}
+
+.visit-text-three{
+	font-size: 14px;
+	padding-right: 40px;
+}
+
+.map{
+	padding: 80px 0px;
+}
+
+
+
+
+

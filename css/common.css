@@ -1,0 +1,69 @@
+.common-top{
+	position: fixed;
+	top: 0px;
+	background-color: white;
+	padding: 30px;
+	z-index: 2;
+}
+
+.title-header{
+	font-size: 20px;
+	padding: 20px;
+}
+
+.enlace{
+	padding: 20px;
+	margin: 0px 20px;
+}
+
+.contact{
+	background: url(../img/shoes_1.jpg) right no-repeat;
+	background-size: contain;
+	height: 466px;
+}
+
+.contact-form{
+	background-color: transparent;
+	width: 90%;
+	height: 300px;
+	display: inline-block;
+	margin: auto;
+	padding-top: 80px;
+}
+
+.contact-text{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.name, .email, .message, .send{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border: 1px solid #D1D1D1;	
+}
+
+.message{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+.send{
+	background-color: #141E41;
+	height: 50px;
+	color: #B9C7DA;
+}
+
+.foot{
+	background-color: #141E41;
+	padding: 30px;
+}
+
+.foot p{
+	color: #B9C7DA;
+	font-size: 14px;
+}
+
