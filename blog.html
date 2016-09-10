@@ -3,13 +3,104 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+	<header class="container-fluid common-top">
+		<div class="container text-center">	
+			<div class="row"><!-- inicio row título + navegador -->
+				<div class="col-12 intro text-center">
+					<p class="text-blue title-header">ESCUELA DE DANZA</p>	
+					<a class="text-gray a-none-decoration enlace" href="nosotros.html">Nosotros</a>
+					<a class="text-gray a-none-decoration enlace" href="clases.html">Clases</a>
+					<a class="text-gray a-none-decoration enlace" href="blog.html">Blog</a>
+					<a class="text-gray a-none-decoration enlace" href="#">Contáctanos</a>
+				</div><!-- cierre col-12 intro -->		
+			</div><!-- cierre row título + navegador -->
+		</div><!-- cierre container -->				
+	</header>
+	<section class="container-fluid"><!-- inicio section Blog -->
+		<div class="container">
+			<div class="row">
+				<div class="col-12"><!-- titulo "Blog" -->
+					<h3>BLOG</h3>					
+				</div>
+			</div>
+			<div class="row"><!-- row con imagen de mujer en pintura -->
+				<div class="col-4">
+					<img src="img/blog1.jpg" alt="blog1">					
+				</div>
+				<div class="col-8">
+					<h5>TÍTULO DEL ARTÍCULO</h5>
+					<p>Fecha</p>
+					<p>Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo...</p>
+					<div class="see-more-buttom">
+						<a href="#">Ver más</a>
+					</div>					
+				</div>				
+			</div>
+			<div class="row"><!-- row con imagen de maestra y alumna -->
+				<div class="col-4">
+					<img src="img/profesor_5.jpg" alt="profe">
+				</div>
+				<div class="col-8">
+					<h5>TÍTULO DEL ARTÍCULO</h5>
+					<p>Fecha</p>
+					<p>Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo...</p>
+					<div class="see-more-buttom">
+						<a href="#">Ver más</a>
+					</div>								
+				</div>								
+			</div>
+			<div class="row"><!-- row con imagen de maestra de ballet -->
+				<div class="col-4">
+					<img src="img/instructor_3.jpg" alt="instructora">					
+				</div>
+				<div class="col-8">
+					<h5>TÍTULO DEL ARTÍCULO</h5>
+					<p>Fecha</p>
+					<p>Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo.Descripción de dos líneas como máximo...</p>
+					<div class="see-more-buttom">
+						<a href="#">Ver más</a>
+					</div>								
+				</div>								
+			</div>			
+		</div><!-- cierre container -->		
+	</section><!-- cierre section Blog -->
+	<section class="container-fluid contact"><!-- inicio section Contáctanos -->
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<form action="">
+						<h2 class="contact-text">Contáctanos</h2>
+						<div class="input-container">							
+							<input type="text" class="contact-form" id="name" placeholder="Nombre" required>
+							<i class="fa fa-user icon" aria-hidden="true"></i>
+						</div>
+						<div class="input-container">
+							<input type="text" class="contact-form" id="email" placeholder="Email" required>
+							<i class="fa fa-envelope icon" aria-hidden="true"></i>
+						</div>
+						<div class="input-container">
+							<textarea class= "contact-form" id="message" placeholder="Mensaje"></textarea>
+							<i class="fa fa-pencil lapiz icon" aria-hidden="true"></i>
+						</div>
+						<input class="send text-center" type="buttom" value="ENVIAR" id="contact-buttom">					
+					</form>				
+				</div>
+			</div><!-- cierre row -->
+		</div><!-- cierre container -->	
+	</section><!-- cierre section Contáctanos -->
+	<footer class="container-fluid foot">
+		<div class="row">
+			<div class="col-12">
+				<p> © Escuela de danza. Todos los derechos reservados.</p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

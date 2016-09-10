@@ -41,7 +41,7 @@
 			<div class="row">
 				<div class="col-12 text-center offer">
 					<p>Juilliart cuenta con una amplia trayectoria y reputación, brindando <br> una formación de excelencia a cientos de amantes de la danza.</p>
-					<img class="text-center icon"src="img/decoration_1.png" alt="icono">
+					<img class="text-center image"src="img/decoration_1.png" alt="icono">
 					<div class="offer-buttom"><!-- inicio botón Oferta clases -->
 						<p class="text-center">Oferta de Clases</p>	
 					</div><!-- cierre boton Oferta clases -->			
@@ -93,11 +93,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-6">
-					<form class="contact-form" action="">
+					<form action="">
 						<h2 class="contact-text">Contáctanos</h2>
-						<input class="name" type="text" name="Nombre" placeholder="Nombre">
-						<input class="email" type="text" name="Email" placeholder="Email">
-						<textarea class="message" name="mensaje" placeholder="Mensaje"></textarea>
+						<div class="input-container">							
+							<input type="text" class="contact-form" id="name" placeholder="Nombre" required>
+							<i class="fa fa-user icon" aria-hidden="true"></i>
+						</div>
+						<div class="input-container">
+							<input type="text" class="contact-form" id="email" placeholder="Email" required>
+							<i class="fa fa-envelope icon" aria-hidden="true"></i>
+						</div>
+						<div class="input-container">
+							<textarea class= "contact-form" id="message" placeholder="Mensaje"></textarea>
+							<i class="fa fa-pencil lapiz icon" aria-hidden="true"></i>
+						</div>
 						<input class="send text-center" type="buttom" value="ENVIAR" id="contact-buttom">					
 					</form>				
 				</div>

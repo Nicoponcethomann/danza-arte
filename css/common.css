@@ -22,11 +22,19 @@
 	height: 466px;
 }
 
+form{
+	height: 300px;
+	padding-top: 50px;
+}
+
+.input-container{
+	margin: 20px 0px;
+	position: relative;
+}
+
 .contact-form{
 	background-color: transparent;
 	width: 90%;
-	height: 300px;
-	display: inline-block;
 	margin: auto;
 	padding-top: 80px;
 }
@@ -36,16 +44,15 @@
 	margin-bottom: 30px;
 }
 
-.name, .email, .message, .send{
+#name, #email, #message, .send{
 	width: 100%;
-	margin-bottom: 20px;
 	padding: 5px;
 	box-sizing: border-box;
 	font-size: 14px;
 	border: 1px solid #D1D1D1;	
 }
 
-.message{
+#message{
 	min-height: 100px;
 	max-height: 200px;
 	max-width: 100%;
@@ -55,6 +62,12 @@
 	background-color: #141E41;
 	height: 50px;
 	color: #B9C7DA;
+	border-radius: 10px;
+}
+
+.icon{
+	position: absolute;
+	font-size: 20px;
 }
 
 .foot{
