@@ -1,1 +1,77 @@
-/* Inserta tu codigo aqui */
+.mix-classes{
+	background-color: #F2F2F2;
+}
+
+.mix-classes-cont{
+	margin-top: 150px;
+}
+
+.text-classes{
+	margin-top: 50px;
+    margin-bottom: 20px;
+	color: black;
+	font-size: 17px;
+}
+
+.ballet{
+	background: url(../img/dance_12.jpg) no-repeat;
+}
+
+.modern{
+	background: url(../img/breakdance.jpg) no-repeat;
+}
+
+.jazz{
+	background: url(../img/lirical-jazz.jpg) no-repeat;
+}
+
+.arabic{
+	background: url(../img/arabe.jpg) no-repeat;
+}
+
+.kids{
+	background: url(../img/little.jpg) no-repeat;
+}
+
+.yoga{
+	background: url(../img/yoga.jpg) no-repeat;
+}
+
+.ballet, .modern, .jazz, .arabic, .kids, .yoga{
+	background-size: 100%;
+	width: 30%;
+	height: 380px;
+	margin: 10px;
+	position: relative;
+	left: 2%;
+}
+
+.dance-styles{
+	background-color: #0F0F0F;
+	opacity: 0.5;
+	width: 85%;
+	height: 35%;
+	position: absolute;
+	left: 10%;
+	bottom: 20%;
+	padding-top: 15%;
+}
+
+.dance-styles p{
+	opacity: 0.6;
+	margin-top: 8%;
+	font-size: 14px;
+}
+
+.three{
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+

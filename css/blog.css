@@ -1,1 +1,71 @@
-/* Inserta tu codigo aqui */
+.contf-blog{
+	background-color: #F2F2F2;
+}
+
+.cont-blog{
+	margin-top: 150px;
+}
+
+.title-blog{
+	margin-top: 60px;
+}
+
+.one-of-three{
+	background: url(../img/blog1.jpg) no-repeat;
+}
+
+.two-of-three{
+	background: url(../img/profesor_5.jpg) no-repeat;
+}
+
+.three-of-three{
+	background: url(../img/instructor_3.jpg) no-repeat;
+}
+
+.left-side{
+	width: 25%;
+	background-size: cover;
+	height: 200px;
+}
+
+.content-r{
+	margin-top: 50px;
+}
+.right-side{
+	background-color: #D6D7DA;
+	background-size: 100%;
+	height: 200px;
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+.right-side h5{
+	margin-top: 30px;
+}
+
+.p-1{
+	opacity: 0.2;
+}
+
+.p-2{
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+.see-more-buttom{
+	background-color: #141E41;
+	width: 30%;
+	height: 20%;
+	margin-top: 15px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.a-1{
+	color:#B2BEE3;
+}
+
+.right-three{
+	margin-bottom: 100px;
+}

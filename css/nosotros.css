@@ -31,7 +31,7 @@
 	color: #ACACA9;
 }
 
-.pilar{
+.pilar, .quote{
 	background: url(../img/cubes.png);
 }
 
@@ -44,9 +44,46 @@
 	font-size: 20px;
 	padding-bottom: 8%;
 	border-bottom: 2px solid grey;
-	margin: 0px 20px;
+	margin: 0px 40px;
 }
 
 .pil p{
-	padding: 20px 0px;
+	padding: 20px 40px;
+	font-size: 14px;
 }
+
+/* Serie de foto de instructores a las que todavía no le encuentro el ajuste para que no se deformen al dejarlas del mismo tamaño */
+
+.content-cont{
+	padding: 60px;
+}
+
+.photo{
+	height: 180px;
+	transform: scale(0,7,0.3);
+	padding: 30px 0px;
+}
+
+/* Fin serie fotos de instructores */
+
+.quote-one{
+	height: 300px;
+} 
+
+.quote-one p{
+	font-size: 30px;
+	margin: 120px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
