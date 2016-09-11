@@ -52,19 +52,63 @@
 	font-size: 14px;
 }
 
-/* Serie de foto de instructores a las que todavía no le encuentro el ajuste para que no se deformen al dejarlas del mismo tamaño */
+.price{
+	background: url(../img/profesor_4.jpg);
+}
 
-.content-cont{
-	padding: 60px;
+.pudney{
+	background: url(../img/profesor_14.jpg);
+}
+
+.knowles{
+	background: url(../img/profesor_1.jpg);
+}
+
+.gibson{
+	background: url(../img/profesor_10.jpg);
+}
+
+.northmore{
+	background: url(../img/profesor_11.jpg);
+}
+
+.day{
+	background: url(../img/profesor_12.jpg);
+}
+
+.mendez{
+	background: url(../img/profesor_9.jpg);
+}
+
+.paterson{
+	background: url(../img/profesor_15.jpg);
+}
+
+.image-instructor{
+	background-size: cover;
+	height: 200px;
+	background-repeat: no-repeat;
+	width: 90%;
 }
 
 .photo{
-	height: 180px;
-	transform: scale(0,7,0.3);
-	padding: 30px 0px;
+	margin-top: 100px;
 }
 
-/* Fin serie fotos de instructores */
+.text-instr{
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+.instr-one{
+	margin-top: 20px;
+	text-align: left;
+}
+
+.p-cont{
+	font-size: 14px;
+	margin-right: 20px;
+}
 
 .quote-one{
 	height: 300px;
@@ -75,6 +119,9 @@
 	margin: 120px 0px;
 }
 
+.last-r{
+	margin-bottom: 100px;
+}
 
 
 
