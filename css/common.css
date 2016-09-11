@@ -27,21 +27,42 @@ form{
 	padding-top: 50px;
 }
 
-.input-container{
-	margin: 20px 0px;
-	position: relative;
-}
-
 .contact-form{
 	background-color: transparent;
 	width: 90%;
 	margin: auto;
 	padding-top: 80px;
+	margin-bottom: 20px;
 }
 
 .contact-text{
 	font-size: 25px;
 	margin-bottom: 30px;
+}
+
+input, textarea[placeholder]{
+	text-indent: 30px;
+}
+
+#name{
+	background: url(http://simpleicon.com/wp-content/uploads/user1.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 5px;
+}
+
+#email{
+	background: url(http://www.freeiconspng.com/uploads/email-icon--endless-icons-20.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: -10px;
+}
+
+#message{
+	background: url(http://image.flaticon.com/icons/png/128/61/61456.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
 }
 
 #name, #email, #message, .send{
@@ -63,11 +84,6 @@ form{
 	height: 50px;
 	color: #B9C7DA;
 	border-radius: 10px;
-}
-
-.icon{
-	position: absolute;
-	font-size: 20px;
 }
 
 .foot{
